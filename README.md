@@ -1,6 +1,7 @@
 ##Loopback Connector for DynamoDB version 0.1.0
-
-It was originally forked from [jugglingdb-dynamodb](https://github.com/tmpaul/jugglingdb-dynamodb).
+* This is still in beta stage. **Do not use it for production release.**
+* It was originally forked from [jugglingdb-dynamodb](https://github.com/tmpaul/jugglingdb-dynamodb).
+* installation: npm install loopback-connector-dynamodb --save
 
 ####Upcoming features
 - Support for String, Number sets.
