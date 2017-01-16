@@ -1,10 +1,37 @@
-##Loopback Connector for DynamoDB version 0.1.0
-* This is still in beta stage. **Do not use it for production release.**
-* It was originally forked from [jugglingdb-dynamodb](https://github.com/tmpaul/jugglingdb-dynamodb).
-* installation: npm install loopback-connector-dynamodb --save
+---
+title: "DynamoDB connector"
+lang: en
+toc: false
+keywords:
+source: loopback-connector-dynamodb
+tags: [community]
+sidebar: community_sidebar
+permalink: /doc/en/community/dynamo-connector.html
+---
 
-####Upcoming features
-- Support for String, Number sets.
+## Link
 
-####Bugs, Features, Enhancements etc.
-- The adapter is still in its development stage, and as a result the functionality is still lacking in some areas & few bugs are expected. Please create issues in the github repository to address these. Also please try to include a test case or error log if you are reporting a bug. Good luck!
+[https://github.com/mandarzope/loopback-connector-dynamodb](https://github.com/mandarzope/loopback-connector-dynamodb)
+
+## Overview
+
+DynamoDB Connector for loopback (compitable with datasource-juggler) 
+
+## Features
+
+In progress
+
+Provide a list of the features here.
+
+## Benefits of the project
+
+In progress
+
+Describe how your project benefits the LoopBack developer.
+
+## Demo or sample code
+
+In progress (Please give me some time to write examples)
+
+Give a short demo of how the project works.
+Summarize your demo here and provide more sample code (or link to API docs, etc.) if necessary.
