@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-param-reassign": 0,
+    "no-bitwise": 0,
+    "no-nested-ternary": 0,
+    "no-prototype-builtins": 0,
+    "no-unused-vars": 0,
+    "no-underscore-dangle": 0
+  }
+}

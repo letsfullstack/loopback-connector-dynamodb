@@ -18,3 +18,4 @@ coverage.html
 .settings
 doc
 package-lock.json
+test

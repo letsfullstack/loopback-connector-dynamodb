@@ -1,27 +1,34 @@
 {
-  "name": "loopback-connector-dynamodb",
+  "name": "@letsfullstack/loopback-connector-dynamodb",
   "description": "DynamoDB connector for LoopBack",
-  "version": "0.1.0-5",
+  "version": "0.1.3",
   "main": "index.js",
   "scripts": {
+    "pretest": "eslint ./lib/*.js",
+    "lint": "eslint ./lib/*.js",
     "test": "make test",
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -- --ui bdd -R spec -t 5000"
   },
   "dependencies": {
+    "async": "latest",
     "aws-sdk": "latest",
     "colors": "latest",
-    "async": "latest",
+    "loopback-connector": "^4.11.0",
+    "strong-globalize": "^6.0.1",
     "winston": "~0.7.3"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "jugglingdb": ">= 0.1.0",
     "should": "latest",
     "mocha": "latest"
   },
-  "repository": "https://github.com/mandarzope/loopback-connector-dynamodb.git",
+  "repository": "https://github.com/letsfullstack/loopback-connector-dynamodb.git",
   "author": {
-    "name": "Mandar Zope",
-    "email": "mandaranilzope@gmail.com"
+    "name": "Lets Go",
+    "email": "contato@letscomunica.com.br"
   },
   "license": "MIT"
 }
