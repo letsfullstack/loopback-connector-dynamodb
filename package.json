@@ -1,5 +1,5 @@
 {
-  "name": "loopback-connector-dynamodb",
+  "name": "@letscomunica/loopback-connector-dynamodb",
   "description": "DynamoDB connector for LoopBack",
   "version": "0.1.5",
   "main": "index.js",
